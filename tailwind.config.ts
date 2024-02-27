@@ -13,6 +13,16 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      fontFamily: {
+        logo: ['Gloria Hallelujah', 'cursive'],
+      }
+    },
+  },
+  variants: {
+    extend: {
+      // 下2行を追加
+      opacity: ['disabled'],
+      cursor: ['disabled'],
     },
   },
   plugins: [],
